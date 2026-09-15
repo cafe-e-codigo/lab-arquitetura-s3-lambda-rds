@@ -33,27 +33,6 @@ Essa divisão é o conceito da aula — o resto é consequência.
 - Persistência relacional: RDS com schema simples e indexado
 - Trade-off explícito: o que ficou **fora** e por quê
 
----
-
-## 🚀 Como rodar
-
-```bash
-git clone https://github.com/seu-usuario/lab-arquitetura-s3-lambda-rds.git
-cd lab-arquitetura-s3-lambda-rds
-npm install
-npm run deploy
-```
-
-Endpoint de teste:
-
-```bash
-curl -X POST $FUNCTION_URL/files \
-  -F "file=@foto.jpg" \
-  -F "client=Cliente X" \
-  -F "tags=foto,2024"
-```
-
-Schema do banco em [`schema.sql`](./schema.sql).
 
 ---
 
