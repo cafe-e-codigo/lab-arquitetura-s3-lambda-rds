@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="Hb2O-W5i5qQITThXqkH_">
+    <mxGraphModel dx="746" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5RTUNR-IPzvb17NW_b8X-37" edge="1" parent="1" source="5RTUNR-IPzvb17NW_b8X-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5RTUNR-IPzvb17NW_b8X-36" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5RTUNR-IPzvb17NW_b8X-43" connectable="0" parent="5RTUNR-IPzvb17NW_b8X-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="REQUEST" vertex="1">
+          <mxGeometry relative="1" x="-0.1091" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5RTUNR-IPzvb17NW_b8X-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="CLIENTE" vertex="1">
+          <mxGeometry height="60" width="120" x="940" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="5RTUNR-IPzvb17NW_b8X-40" edge="1" parent="1" source="5RTUNR-IPzvb17NW_b8X-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5RTUNR-IPzvb17NW_b8X-39" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1500" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5RTUNR-IPzvb17NW_b8X-44" connectable="0" parent="5RTUNR-IPzvb17NW_b8X-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SQL" vertex="1">
+          <mxGeometry relative="1" x="-0.4733" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5RTUNR-IPzvb17NW_b8X-42" edge="1" parent="1" source="5RTUNR-IPzvb17NW_b8X-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5RTUNR-IPzvb17NW_b8X-41" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1500" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5RTUNR-IPzvb17NW_b8X-45" connectable="0" parent="5RTUNR-IPzvb17NW_b8X-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="PULL / GET" vertex="1">
+          <mxGeometry relative="1" x="-0.3901" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5RTUNR-IPzvb17NW_b8X-36" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="AWS LAMBDA&lt;div&gt;CRUD&lt;/div&gt;&lt;div&gt;NODE.JS&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1170" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="5RTUNR-IPzvb17NW_b8X-39" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" value="AMAZON RDS&lt;div&gt;POSTGRE/MYSQL&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1440" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="5RTUNR-IPzvb17NW_b8X-41" parent="1" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="AMAZON S3" vertex="1">
+          <mxGeometry height="60" width="120" x="1440" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="5RTUNR-IPzvb17NW_b8X-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=0;dashed=1;" value="" vertex="1">
+          <mxGeometry height="120" width="440" x="870" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="5RTUNR-IPzvb17NW_b8X-47" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 16px;&quot;&gt;Fluxo do cenário de teste&lt;/span&gt;&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Cliente envia requisição&lt;/li&gt;&lt;li&gt;Lambda processa a lógica de negócio&lt;/li&gt;&lt;li&gt;Dados relacionais - RDS&lt;/li&gt;&lt;li&gt;Arquivos - S3&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="420" x="880" y="600" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
